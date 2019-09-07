@@ -18,8 +18,6 @@ defmodule SSD1306.Mixfile do
   defp deps do
     [
       {:elixir_ale, "~> 0.5.5"},
-      {:percept, github: "erlang/percept"},
-      {:egd, github: "erlang/egd"}
-    ]
+      {:percept, github: "erlang/percept"}    ]
   end
 end
