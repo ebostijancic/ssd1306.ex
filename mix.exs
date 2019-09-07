@@ -11,13 +11,14 @@ defmodule SSD1306.Mixfile do
   end
 
   def application do
-    [applications: [:logger, :elixir_ale],
+    [applications: [:logger, :elixir_ale, :percept],
      mod: {SSD1306, []}]
   end
   
   defp deps do
     [
       {:elixir_ale, "~> 0.5.5"},
+      {:percept, github: "erlang/percept"},
       {:egd, github: "erlang/egd"}
     ]
   end
